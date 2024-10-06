@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Configurable Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple weather dashboard built using **TypeScript** and **Material-UI (MUI)**. It allows users to add and remove weather widgets and switch between Celsius and Fahrenheit for temperature display. The application also persists the user's configuration using `localStorage`, ensuring state is saved between sessions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add/Remove Weather Widgets**: Users can dynamically add or remove weather widgets to/from the dashboard.
+- **Temperature Unit Toggle**: Toggle between Celsius and Fahrenheit for temperature display.
+- **State Persistence**: Widgets and temperature unit preferences are saved in `localStorage`, so the dashboard state is preserved between sessions.
+- **Responsive Design**: The layout is fully responsive and adapts to both mobile and desktop screens.
+- **Type Safety**: TypeScript is used to ensure type safety for props and state.
+- **Weather Data**: Currently, weather data is hardcoded for a sample location (e.g., New York), but it can be easily extended to fetch live data from a weather API.
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React**: For building the user interface.
+- **TypeScript**: Ensuring static type checking.
+- **Material-UI (MUI)**: For UI components and styling.
+- **localStorage**: For persisting user preferences (weather widgets and temperature unit).
+- **Jest & React Testing Library** (Optional): For unit testing.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (>=14.x)
+- npm or yarn
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/weather-dashboard.git
+   cd weather-dashboard
+   ```
