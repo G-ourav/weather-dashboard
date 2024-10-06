@@ -24,12 +24,10 @@ This project is a simple weather dashboard built using **TypeScript** and **Mate
 ### Prerequisites
 
 - Node.js (>=14.x)
-- npm or yarn
+- npm
 
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/weather-dashboard.git
-   cd weather-dashboard
-   ```
+
+   git clone https://github.com/G-ourav/weather-dashboard
